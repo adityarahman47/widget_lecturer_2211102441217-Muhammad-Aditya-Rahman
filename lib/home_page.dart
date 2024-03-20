@@ -99,3 +99,16 @@ class HomePage extends StatelessWidget {
                 ),
               ],
             ),
+
+            const SizedBox(height: 20.0),
+            const Text(
+              '8. Padding:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: Container(
+                color: Colors.green,
+                child: const Text('Ini Padding'),
+              ),
+            ),
