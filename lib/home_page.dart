@@ -126,3 +126,13 @@ class HomePage extends StatelessWidget {
                 child: const Text('Muhammad Aditya Rahman'),
               ),
             ),
+
+            const SizedBox(height: 20.0),
+            const Text(
+              '10. AspectRatio:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            AspectRatio(
+              aspectRatio: 16 / 9,
+              child: Container(color: Colors.lightBlue),
+            ),
