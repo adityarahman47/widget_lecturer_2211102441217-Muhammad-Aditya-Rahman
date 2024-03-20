@@ -51,3 +51,14 @@ class HomePage extends StatelessWidget {
                 Container(width: 50.0, height: 50.0, color: Colors.blue),
               ],
             ),
+
+            const SizedBox(height: 20.0),
+            const Text(
+              '4. Image:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Image.network(
+              'https://images.freeimages.com/images/large-previews/82a/frog-on-chain-link-fence-1560508.jpg?fmt=webp&w=500',
+              width: 150.0,
+              height: 150.0,
+            ),
